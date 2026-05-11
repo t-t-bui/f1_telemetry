@@ -15,6 +15,7 @@ from matplotlib.figure import Figure
 
 import matplotlib.pyplot as plt
 import warnings
+warnings.filterwarnings('ignore');
 
 # Enable caching for fastf1
 if not os.path.exists("fastf1_cache"):
